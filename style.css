@@ -381,11 +381,12 @@ h3 {
 
 footer {
     background-color: #1F4744;
-    height: 700px;
+    height: 600px;
     width: 100%;
     margin-top: 60px;
     color: #fff;
     padding-top: 65px;
+    margin-bottom: 40px;
 }
 
 .footer-container {
@@ -393,7 +394,7 @@ footer {
     width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 30px;
+    column-gap: 40px;
 }
 
 .footer-header {
@@ -401,20 +402,47 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
-    line-height: 59px;
+    line-height: 35px;
 }
 
-.footer-item {
+.footer-item  {
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 20px;
+    /* margin:55px  auto; */
+}
+
+.footer-item1 {
     font-family: 'Inder';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
+    text-align: left;
+    margin-top: 10px;
+}
+#platform {
+    line-height: 25px;
+    font-size: 20px;
+    
 }
 
-.about .company-logo {
-    width: 200px;
+.footer-list a {
+    color: #fff;
 }
+
+.about {
+    /* position: relative; */
+    margin-top: 50px;
+
+}
+
+/* .about .company-logo {
+    width: 400px;
+} */
 
 .socials {
     display: flex;
@@ -432,6 +460,8 @@ footer {
 
 .align-footer {
     padding-top: 57px;
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 
 /* media queries for main */
